@@ -1,7 +1,6 @@
 * This breaths well
 * The variable names seem meaningful
 * He / she is NOT putting the open curly brace on the same line as the object
-* 
 
 
 
@@ -36,8 +35,8 @@ if(!window.console)
 }
 ```
 
-* Still writing need JS
-* 
+* Still writing neat JS
+* Using the correct placement of the open curly brace
 
 ```javascript
 
