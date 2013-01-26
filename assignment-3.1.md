@@ -1,6 +1,7 @@
 * This breaths well
 * The variable names seem meaningful
 * He / she is NOT putting the open curly brace on the same line as the object
+* Good use of camel case / intercapping
 
 
 
@@ -37,6 +38,7 @@ if(!window.console)
 
 * Still writing neat JS
 * Using the correct placement of the open curly brace
+* Minor mispelling in the strings
 
 ```javascript
 
