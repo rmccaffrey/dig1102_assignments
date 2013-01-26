@@ -38,7 +38,7 @@ if(!window.console)
 
 * Still writing neat JS
 * Using the correct placement of the open curly brace
-* Minor mispelling in the strings
+* Minor misspelling in the strings
 
 ```javascript
 
