@@ -1,0 +1,10 @@
+{"ts":1358009466683,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
+{"contributors":[],"silentsave":false,"ts":1358009510479,"patch":[[{"diffs":[[1,"### The address\n\ngit@github.com:rmccaffrey/dig1102_assignments.git\n"]],"start1":0,"start2":0,"length1":0,"length2":67}]],"length":67,"saved":false}
+{"ts":1358012494059,"patch":[[{"diffs":[[0,"nts.git\n"],[1,"\n* Robert McCaffrey\n* DIG 1102C\n* Spring 2013\n "]],"start1":59,"start2":59,"length1":8,"length2":55}]],"length":114,"saved":false}
+{"contributors":[],"silentsave":false,"ts":1359214843393,"patch":[[{"diffs":[[0,"g 2013\n "],[1,"\n\n5-minute discrete math\n0 - 9: base 10\n"]],"start1":106,"start2":106,"length1":8,"length2":48}]],"length":154,"saved":false}
+{"ts":1359214862055,"patch":[[{"diffs":[[0,"base 10\n"],[1,"0 - 1: base 2\n"]],"start1":146,"start2":146,"length1":8,"length2":22}]],"length":168,"saved":false}
+{"ts":1359214902235,"patch":[[{"diffs":[[0," base 2\n"],[1,"\nbinary math\n000: 0\n+ 1; "]],"start1":160,"start2":160,"length1":8,"length2":33}]],"length":193,"saved":false}
+{"ts":1359214976282,"patch":[[{"diffs":[[0,"000:"],[1," "],[0," 0\n+ 1"],[-1,"; "],[1,": +1\n001:\n+ 1: 010"]],"start1":181,"start2":181,"length1":12,"length2":29}]],"length":210,"saved":false}
+{"ts":1359215142803,"patch":[[{"diffs":[[0,": base 2"],[1,"\n0 - 7: base 8"],[0,"\n\nbinary"]],"start1":159,"start2":159,"length1":16,"length2":30},{"diffs":[[0,"+ 1: 010"],[1,"\n\n\nWhat is 1001 minus 100?\n\n1001\n 100\n 101\n \n lets check that.\n 1001 is 8 + 1 = 9\n"]],"start1":216,"start2":216,"length1":8,"length2":90}]],"length":306,"saved":false}
+{"ts":1359215261792,"patch":[[{"diffs":[[0,"+ 1 = 9\n"],[1,"100 is 4. 9 - 4 is 5.\n101 is 5 + 1 = 5"]],"start1":298,"start2":298,"length1":8,"length2":46}]],"length":344,"saved":false}
+{"ts":1359215592752,"patch":[[{"diffs":[[0,": base 8"],[1,"\n0 - 15: base 16 ( 0 - 9, A - F)"],[0,"\n\nbinary"]],"start1":173,"start2":173,"length1":16,"length2":48}]],"length":376,"saved":false}
