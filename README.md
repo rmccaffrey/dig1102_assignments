@@ -30,3 +30,5 @@ What is 1001 minus 100?
  1001 is 8 + 1 = 9
 100 is 4. 9 - 4 is 5.
 101 is 5 + 1 = 5
+
+Fall 2013 changes

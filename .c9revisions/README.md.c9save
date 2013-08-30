@@ -8,3 +8,4 @@
 {"ts":1359215142803,"patch":[[{"diffs":[[0,": base 2"],[1,"\n0 - 7: base 8"],[0,"\n\nbinary"]],"start1":159,"start2":159,"length1":16,"length2":30},{"diffs":[[0,"+ 1: 010"],[1,"\n\n\nWhat is 1001 minus 100?\n\n1001\n 100\n 101\n \n lets check that.\n 1001 is 8 + 1 = 9\n"]],"start1":216,"start2":216,"length1":8,"length2":90}]],"length":306,"saved":false}
 {"ts":1359215261792,"patch":[[{"diffs":[[0,"+ 1 = 9\n"],[1,"100 is 4. 9 - 4 is 5.\n101 is 5 + 1 = 5"]],"start1":298,"start2":298,"length1":8,"length2":46}]],"length":344,"saved":false}
 {"ts":1359215592752,"patch":[[{"diffs":[[0,": base 8"],[1,"\n0 - 15: base 16 ( 0 - 9, A - F)"],[0,"\n\nbinary"]],"start1":173,"start2":173,"length1":16,"length2":48}]],"length":376,"saved":false}
+{"contributors":[],"silentsave":false,"ts":1377874272629,"patch":[[{"diffs":[[0," + 1 = 5"],[1,"\n\nFall 2013 changes"]],"start1":368,"start2":368,"length1":8,"length2":27}]],"length":395,"saved":false}
