@@ -39,6 +39,9 @@ var sub = function(a, b) {
      return (a-b);
 }
 
+var multi = function(a, b) {
+     return (a*b);
+}
 //These are addition tests
 assert.equal(2,addition(1,1));
 assert.equal(1,addition(1,0));
