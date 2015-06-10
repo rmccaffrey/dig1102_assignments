@@ -3,6 +3,11 @@
  * 
  */
  
- var total = 10;
+ var total = 5;
 console.log(total);
  
+var multByTwo = function(a){
+    return a*2;
+};
+
+console.log(multByTwo(total));
