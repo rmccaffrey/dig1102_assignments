@@ -11,3 +11,6 @@ var multByTwo = function(a){
 };
 
 console.log(multByTwo(total));
+
+var assert = require('assert');
+assert.equal(multByTwo(total), 10, "The fuction multiByTwo fails to return the correct number.");
