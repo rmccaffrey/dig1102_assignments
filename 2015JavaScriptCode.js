@@ -2,10 +2,10 @@
 console.log("It's the JS production code, ya'll!");
 
 module.exports = {//production code
-    var add = function (a, b) {
+    function add (a, b) {
     return a + b;
 }    
-}
+};
 
 /*
 //random code warmups follow below.
