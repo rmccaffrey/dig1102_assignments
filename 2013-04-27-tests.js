@@ -43,13 +43,14 @@ var assert = require("assert"),
  assert(problem.numerals.roman);
  
  //define a roman numeral
- assert(problem.numerals.roman(1) === 'I');
+ assert(problem.numerals.roman(1) === 'I')// ? "we get I" : "we don't get I";
  assert(problem.numerals.roman(5) === 'V');
  assert(problem.numerals.roman(10) === 'X');
  assert(problem.numerals.roman(50) === 'L');
  assert(problem.numerals.roman(100) === 'C');
  assert(problem.numerals.roman(500) === 'D');
  assert(problem.numerals.roman(1000) === 'M');
+ assert(problem.numerals.roman(4) === "IV");
  
  
 // For these we need to create functions
