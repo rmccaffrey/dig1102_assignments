@@ -1,8 +1,10 @@
 // get the code to shout its name
-console.log("It's the JS production code, ya'll!");
+module.exports = {
+    numerals: {
+        
+        }
 
-console.log(romanCalc);
-
+}
 
 /*
 //random code warmups follow below.
