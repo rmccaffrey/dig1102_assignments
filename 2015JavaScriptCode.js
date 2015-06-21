@@ -1,17 +1,23 @@
 // get the code to shout its name
 module.exports = {
     numerals: {
-        convert: function (decimalNumber){
+        convert: function (decimalNumber, X = null, V = null, I = null, r = null){
             if (decimalNumber > 40) {
-                return "too high to calculate";
+                r = "too high to calculate";
             }
             if (decimalNumber == 40) {
-                return "XL";
+                r = "XL";
             }
+            while (decimalNumber >= 10 ) {
+                X = (X +1);
+                decimalNumber = (decimalNumber-10);
+            }
+            
+            return X + V + I + r;
         }
         }
 
-}
+};
 
 /*
 //random code warmups follow below.
