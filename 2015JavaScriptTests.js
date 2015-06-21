@@ -7,6 +7,7 @@ var assert = require('assert'),
 assert(calculator.numerals);
 assert(calculator.numerals.convert(41) === 'too high to calculate');
 assert(calculator.numerals.convert(40) === "XL");
+assert(calculator.numerals.convert(39) === "XXXIX");
 
 /*create a test function
 function test (a, b){
