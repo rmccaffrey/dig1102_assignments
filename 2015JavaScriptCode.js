@@ -5,8 +5,8 @@ module.exports = {
             if (decimalNumber > 40) {
                 return "too high to calculate";
             }
-            if (decimalNumber == 1) {
-                return 1;
+            if (decimalNumber == 40) {
+                return "XL";
             }
         }
         }
