@@ -1,7 +1,14 @@
 // get the code to shout its name
 module.exports = {
     numerals: {
-        
+        convert: function (decimalNumber){
+            if (decimalNumber > 40) {
+                return "too high to calculate";
+            }
+            if (decimalNumber == 1) {
+                return 1;
+            }
+        }
         }
 
 }
