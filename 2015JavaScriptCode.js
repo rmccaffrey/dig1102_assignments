@@ -2,7 +2,15 @@
 module.exports = {
   numerals: {
       convert: function (decimalNumber, X, V, I, r){
-          return decimalNumber;
+          if (decimalNumber > 40){
+          
+              decimalNumber = "Too high to calculate";
+              X = "X";
+              V = "V";
+              I = "I";
+              r = "r";
+          }
+              return decimalNumber + X + V + I + r;
       }
   }
 
