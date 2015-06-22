@@ -3,11 +3,11 @@ var assert = require('assert'),
     
 
 
-//find a varialbe called romanCalc
-assert(calculator.numerals);
-assert(calculator.numerals.convert(41) === 'too high to calculate');
-assert(calculator.numerals.convert(40) === "XL");
-assert(calculator.numerals.convert(39) === "XXXIX");
+//find the fucntion in the production code and get a return
+var calcInput = decimalNumber;
+assert(calculator.numerals.convert("hello") === "hello");
+console.log(calculator.numerals.convert("hello"));
+
 
 /*create a test function
 function test (a, b){

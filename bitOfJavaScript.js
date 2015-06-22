@@ -19,8 +19,15 @@ function add (c, d){
 console.log(add (10, 20));
 assert(add (1,1)===2, "The fuction add fails to return the correct number.");
 
-var assert = require('assert');
+
 assert.equal(multByTwo(total), 6, "The fuction multiByTwo fails to return the correct number.");
-console.log(multByTwo(total) === 6 ? "true" : "false");
+console.log(multByTwo(total) === 6 ? "true multi" : "false multi");
 //try a simple tenary operator
 console.log(add (1,1) === 2 ? "True" : "False");
+
+function testDriven (decimalNumber){
+    return decimalNumber = "message from the decimalNumber";
+    
+}
+
+console.log(testDriven(1));
