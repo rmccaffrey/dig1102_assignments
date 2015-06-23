@@ -10,6 +10,15 @@ module.exports = {
               I = "I";
               r = "r";
           }
+          
+          if (decimalNumber == 40){
+              
+              decimalNumber = "XL";
+              X = null;
+              V = null;
+              I = null;
+              r = null;
+          }
               return decimalNumber + X + V + I + r;
       }
   }

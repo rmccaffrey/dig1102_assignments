@@ -8,9 +8,10 @@ var assert = require('assert'),
 assert(calculator.numerals.convert(41) === "Too high to calculateXVIr")
 console.log(calculator.numerals.convert(41));
 
-// test for numbers above 40
-//assert(calculator.numerals.convert(41) === "Too high to calculate");
-//console.log(calculator.numerals.convert(41));
+// test for 40
+console.log(calculator.numerals.convert(40));
+assert(calculator.numerals.convert(40) === "XL");
+
 
 
 //old passed tests
