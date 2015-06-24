@@ -5,7 +5,7 @@ var assert = require('assert'),
 
 
 //test for returning all variables
-assert(calculator.numerals.convert(41) === "Too high to calculateXVIr")
+assert(calculator.numerals.convert(41) === "Too high to calculate")
 console.log(calculator.numerals.convert(41));
 
 // test for 40

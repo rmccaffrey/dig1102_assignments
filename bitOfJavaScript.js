@@ -30,4 +30,7 @@ function testDriven (decimalNumber){
     
 }
 
-console.log(testDriven(1));
+console.log(testDriven(1)); //should return the line from testDriven
+
+console.log(null + "hello");
+console.log(null + 0);

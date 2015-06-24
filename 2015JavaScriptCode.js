@@ -5,21 +5,17 @@ module.exports = {
           if (decimalNumber > 40){
           
               decimalNumber = "Too high to calculate";
-              X = "X";
-              V = "V";
-              I = "I";
-              r = "r";
+              return decimalNumber;
+           
           }
           
           if (decimalNumber == 40){
               
               decimalNumber = "XL";
-              X = null;
-              V = null;
-              I = null;
-              r = null;
+              return decimalNumber;
+           
           }
-              return decimalNumber + X + V + I + r;
+             
       }
   }
 
