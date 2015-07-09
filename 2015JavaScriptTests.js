@@ -24,6 +24,14 @@ assert(calculator.numerals.convert(35) === "XXXV");
 console.log(calculator.numerals.convert(38));
 assert(calculator.numerals.convert(38) === "XXXVIII");
 
+//refactorig the test
+function refactorTests (decimalNumber, romanNumber){
+    console.log(calculator.numerals.convert(decimalNumber));
+    assert(calculator.numerals.convert(decimalNumber) === romanNumber);
+}
+
+refactorTests(25, "XXV");
+refactorTests(15, "XV");
 
 //old passed tests
 //find the fucntion in the production code and get a return
