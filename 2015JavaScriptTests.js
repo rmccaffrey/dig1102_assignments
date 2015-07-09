@@ -20,6 +20,11 @@ assert(calculator.numerals.convert(30) === "XXX");
 console.log(calculator.numerals.convert(35));
 assert(calculator.numerals.convert(35) === "XXXV");
 
+//test for 38
+console.log(calculator.numerals.convert(38));
+assert(calculator.numerals.convert(38) === "XXXVIII");
+
+
 //old passed tests
 //find the fucntion in the production code and get a return
 //assert(calculator.numerals.convert("hello") === "hello");
