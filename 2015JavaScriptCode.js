@@ -18,13 +18,20 @@ module.exports = {
           
           if (decimalNumber >= 10){
              var romanTens = "";
+             var romanFives = "";
+             
              while (decimalNumber >= 10){
               //romanTens = (romanTens + 1);
               decimalNumber = (decimalNumber - 10);
               var romanTens = (romanTens + "X");
               
-              } 
-              return romanTens;
+              }
+              
+              while (decimalNumber >= 5){
+                  decimalNumber = (decimalNumber - 5);
+                  var romanFives = (romanFives + "V");
+              }
+              return romanTens + romanFives;
           }
             
       }
