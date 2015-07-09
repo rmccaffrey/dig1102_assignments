@@ -1,7 +1,7 @@
 // get the code to shout its name
 module.exports = {
   numerals: {
-      convert: function (decimalNumber, X, V, I, r){
+      convert: function (decimalNumber){
           if (decimalNumber > 40){
           
               decimalNumber = "Too high to calculate";
@@ -15,7 +15,18 @@ module.exports = {
               return decimalNumber;
            
           }
-             
+          
+          if (decimalNumber >= 10){
+             var romanTens = "";
+             while (decimalNumber >= 10){
+              //romanTens = (romanTens + 1);
+              decimalNumber = (decimalNumber - 10);
+              var romanTens = (romanTens + "X");
+              
+              } 
+              return romanTens;
+          }
+            
       }
   }
 

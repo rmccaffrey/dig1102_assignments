@@ -12,7 +12,9 @@ console.log(calculator.numerals.convert(41));
 console.log(calculator.numerals.convert(40));
 assert(calculator.numerals.convert(40) === "XL");
 
-
+//test for 30
+console.log(calculator.numerals.convert(30));
+assert(calculator.numerals.convert(30) === "XXX");
 
 //old passed tests
 //find the fucntion in the production code and get a return

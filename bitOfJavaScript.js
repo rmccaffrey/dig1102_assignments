@@ -34,3 +34,5 @@ console.log(testDriven(1)); //should return the line from testDriven
 
 console.log(null + "hello");
 console.log(null + 0);
+
+console.log("X" + "X" + "X");
