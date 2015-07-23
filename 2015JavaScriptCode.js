@@ -1,4 +1,4 @@
-// get the code to shout its name
+// build a calculator to convert Arabic numbers to Roman numerals
 module.exports = {
   numerals: {
       convert: function (decimalNumber, remainder){
@@ -24,9 +24,8 @@ module.exports = {
              var romanOnes = "";
              
              while (decimalNumber >= 10){
-              //romanTens = (romanTens + 1);
               decimalNumber = (decimalNumber - 10);
-              var romanTens = (romanTens + "X");
+              romanTens = (romanTens + "X");
               
               }
               
@@ -37,7 +36,7 @@ module.exports = {
               
               while (decimalNumber >= 5){
                   decimalNumber = (decimalNumber - 5);
-                  var romanFives = (romanFives + "V");
+                  romanFives = (romanFives + "V");
               }
                
                if (decimalNumber == 4){
@@ -47,7 +46,7 @@ module.exports = {
               
               while (decimalNumber > 0){
                   decimalNumber = (decimalNumber - 1);
-                  var romanOnes = (romanOnes + "I");
+                  romanOnes = (romanOnes + "I");
               }
               return romanTens + romanFives + romanOnes + remainder;
           }
