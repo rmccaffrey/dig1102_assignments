@@ -39,6 +39,9 @@ refactorTests(19, "XIX");
 refactorTests(29, "XXIX");
 refactorTests(39, "XXXIX");
 refactorTests(8, "VIII");
+refactorTests(4, "IV");
+refactorTests(38, "XXXVIII");
+refactorTests(34, "XXXIV");
 
 
 //old passed tests
