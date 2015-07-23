@@ -16,12 +16,6 @@ module.exports = {
            
           }
            
-           if (decimalNumber == 9){
-              
-              remainder = "IX";
-              return remainder;
-           
-          }
           
           if (decimalNumber >0){
              remainder = "";
