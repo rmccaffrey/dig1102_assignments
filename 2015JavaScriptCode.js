@@ -38,6 +38,7 @@ module.exports = {
               
               if (decimalNumber == 9){
                   remainder = "IX";
+                  return romanTens + remainder;
               }
               
               while (decimalNumber >= 5){
