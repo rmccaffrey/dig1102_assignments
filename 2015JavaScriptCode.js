@@ -23,8 +23,8 @@ module.exports = {
            
           }
           
-          if (decimalNumber >= 10){
-              remainder = "";
+          if (decimalNumber >0){
+             remainder = "";
              var romanTens = "";
              var romanFives = "";
              var romanOnes = "";
@@ -44,6 +44,11 @@ module.exports = {
               while (decimalNumber >= 5){
                   decimalNumber = (decimalNumber - 5);
                   var romanFives = (romanFives + "V");
+              }
+               
+               if (decimalNumber == 4){
+                  remainder = "IV";
+                  return romanTens + remainder;
               }
               
               while (decimalNumber > 0){
