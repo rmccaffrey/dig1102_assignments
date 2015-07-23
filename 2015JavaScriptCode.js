@@ -48,7 +48,7 @@ module.exports = {
                   decimalNumber = (decimalNumber - 1);
                   romanOnes = (romanOnes + "I");
               }
-              return romanTens + romanFives + romanOnes + remainder;
+              return romanTens + romanFives + romanOnes;
           }
             
       }
