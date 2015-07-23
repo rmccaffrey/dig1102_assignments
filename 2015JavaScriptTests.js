@@ -32,6 +32,11 @@ function refactorTests (decimalNumber, romanNumber){
 
 refactorTests(25, "XXV");
 refactorTests(15, "XV");
+refactorTests(26, "XXVI");
+refactorTests(10, "X");
+refactorTests(9, "IX");
+refactorTests(19, "XIX");
+
 
 //old passed tests
 //find the fucntion in the production code and get a return
